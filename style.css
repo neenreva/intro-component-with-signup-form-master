@@ -51,6 +51,7 @@ h1 {
 
 .input-info {
   padding: 2rem 0;
+  width: 100%;
 }
 
 .try-free,
@@ -92,14 +93,27 @@ span {
   padding-left: 1rem;
   font-weight: 500;
   font-size: 0.95rem;
+  position: relative;
+}
+
+.input-container-cell {
+  position: relative;
 }
 
 .error {
-  /* width: 100%; */
   color: var(--salmon);
   font-size: 11px;
-  margin-top: -1rem;
-  margin-bottom: 1rem;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+}
+
+.icon {
+  color: var(--salmon);
+  font-size: 11px;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
 }
 
 .hidden {
