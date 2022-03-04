@@ -15,7 +15,6 @@ freeTrialBtn.addEventListener("click", (e) => {
 });
 
 function emptyField(field) {
-  console.log((field.style.border += "1px solid red"));
   if (
     field.value == "" &&
     field.parentElement.children[1].classList.contains("hidden")
@@ -29,8 +28,6 @@ function emptyField(field) {
 }
 
 function emailValidation(field) {
-  console.log(field.value);
-
   if (!field.value.match(/^\S+@\S+\.\S+$/m)) {
     field.parentElement.children[1].classList.remove("hidden");
     field.style.border = "1px solid red";
