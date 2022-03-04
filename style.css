@@ -152,6 +152,11 @@ span {
   text-align: center;
   font-weight: 600;
 }
+
+button {
+  cursor: pointer;
+}
+
 a {
   color: var(--violet);
   text-decoration: none;
