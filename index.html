@@ -40,6 +40,12 @@
               class="input-field input-fn"
               placeholder="First Name"
             />
+            <div class="error hidden">
+              <span class="icon"
+                ><img src="images/icon-error.svg" alt="error icon"
+              /></span>
+              <span>First name cannot be empty</span>
+            </div>
           </div>
 
           <div class="input-container-cell">
@@ -48,27 +54,45 @@
               class="input-field input-ln"
               placeholder="Last Name"
             />
+            <div class="error hidden">
+              <span class="icon"
+                ><img src="images/icon-error.svg" alt="error icon"
+              /></span>
+              <span>Last name cannot be empty</span>
+            </div>
           </div>
 
           <div class="input-container-cell">
             <input
-              type="text"
+              type="email"
               class="input-field input-ea"
               placeholder="Email Address"
             />
+            <div class="error hidden">
+              <span class="icon"
+                ><img src="images/icon-error.svg" alt="error icon"
+              /></span>
+              <span>Looks like this is not a valid Email</span>
+            </div>
           </div>
 
           <div class="input-container-cell">
             <input
-              type="text"
+              type="password"
               class="input-field input-pw"
               placeholder="Password"
             />
+            <div class="error hidden">
+              <span class="icon"
+                ><img src="images/icon-error.svg" alt="error icon"
+              /></span>
+              <span>Password cannot be empty</span>
+            </div>
           </div>
           <button class="free-trial">Claim your free trial</button>
           <p class="terms">
             By clicking the button, you are agreeing to our
-            <span>Terms and Services</span>
+            <a href="#"><span>Terms and Services</span></a>
           </p>
         </div>
       </div>
@@ -79,7 +103,7 @@
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
+        >. Coded by <a href="https://github.com/neenreva">neenreva</a>.
       </p>
     </footer>
   </body>
